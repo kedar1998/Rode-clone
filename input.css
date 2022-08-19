@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (min-width: 768px) {
+    #nth-USB{
+        background-image: url('../images/nt-usb-bg.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+
+    #pod-mic{
+        background-image: url('../images/pod-mic.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+    
+    #wireless{
+        background-image: url('../images/wireless-go.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+    #nt-usb-mini{
+        background-image: url('../images/nt-usb-mini.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+    
+}
+
+#explore-1{
+    background-image: url('../images/microphones.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#explore-2{
+    background-image: url('../images/interfaces-and-mixures.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#explore-3{
+    background-image: url('../images/software.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#explore-4{
+    background-image: url('../images/accessories.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
