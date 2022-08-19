@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.rode.com/website/rode-favicon.svg">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Tailwindcss Starter</title>
+    <title>RØDE Microphones</title>
 </head>
 <body>
     <!-- NAVBAR -->
-    <section id="navbar" class="bg-white text-black shadow-xl py-5 px-2">
-        <nav class="container mx-auto flex items-center justify-between">
+    <section id="navbar" class="fixed top-0 left-0 right-0 z-40 bg-white text-black shadow-xl py-8 px-2">
+        <nav class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <!-- LOGO -->
-            <div class="flex space-x-20 items-center">
+            <div class=" md:flex space-x-20 items-center mx-auto md:mx-0">
                 <a href="#" class="text-2xl md:text-4xl font-bold">RØDE</a>
             </div>
             
@@ -26,13 +27,26 @@
                     <a href="#" class="">SUPPORT</a>
                 </div>
             </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden w-full flex flex-col space-y-3 items-center">
+                <div class="flex space-x-5 items-center mt-2">
+                    <a href="#" class="">PRODUCT</a>
+                    <a href="#" class="">USER GUIDE</a>
+                    <a href="#" class="">SOLUTIONS</a>
+                </div>
+                <div class="flex space-x-5 items-center">
+                    <a href="#" class="">APPAREL</a>
+                    <a href="#" class="">SUPPORT</a>
+                </div>
+            </div>
         </nav>
     </section>
 
 
 
     <!-- HERO -->
-    <section id="hero" class="bg-black py-10 px-4">
+    <section id="hero" class="bg-black py-36 px-4">
         <div class="container mx-auto flex flex-col md:flex-row md:space-x-20 space-y-10 md:space-y-0 items-center">
             <!-- IMAGE -->
             <div class="w-full md:w-1/2">
@@ -55,7 +69,7 @@
 
 
     <!-- NTH-100 SECTION -->
-    <section id="nth-100" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative">
+    <section id="nth-100" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative z-30">
         <div class="container mx-auto flex flex-col md:flex-row">
             <!-- CONTENT -->
             <div class="w-full text-center  flex flex-col items-center py-36 z-50">
@@ -74,7 +88,7 @@
 
 
     <!-- NTH-USB SECTION -->
-    <section id="nth-USB" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative">
+    <section id="nth-USB" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative py-10">
         <div class="container mx-auto flex flex-col md:flex-row">
             <!-- IMAGE -->
             <div class="h-full md:hidden">
@@ -97,7 +111,7 @@
 
 
     <!-- POD MIC SECTION -->
-    <section id="pod-mic" class=" px-4 relative md:text-white">
+    <section id="pod-mic" class=" px-4 relative md:text-white py-10">
         <div class="container mx-auto flex flex-col md:flex-row">
             <!-- IMAGE -->
             <div class="h-full md:hidden">
@@ -120,7 +134,7 @@
 
 
     <!-- WIRELESS SECTION -->
-    <section id="wireless" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative md:text-white">
+    <section id="wireless" class="bg-gradient-to-r from-[#c7c7c7] to-[#aeaeae] px-4 relative md:text-white py-10">
         <div class="container mx-auto flex flex-col md:flex-row">
             <!-- IMAGE -->
             <div class="h-full md:hidden">
@@ -142,7 +156,7 @@
 
 
     <!-- NT-USB SECTION -->
-    <section id="nt-usb-mini" class=" px-4 relative md:text-white">
+    <section id="nt-usb-mini" class=" px-4 relative md:text-white py-10">
         <div class="container mx-auto flex flex-col md:flex-row">
             <!-- IMAGE -->
             <div class="h-full md:hidden">
